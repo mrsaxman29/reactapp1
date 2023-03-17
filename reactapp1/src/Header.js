@@ -10,11 +10,24 @@ const other_icon = <FontAwesomeIcon icon={faElevator} />
 
 
 export default function Header() {
+
+  const hamburger = document.getElementById("hamburger");
+  hamburger.addEventListener("click", side_bar)
+  function side_bar(){
+
+    const drawer = document.createComment("div");
+    drawer.setAtrribute("id", "drawer");
+    
+    
+
+  };
+  
+
   return (
     <>
   
     <ul className='nav'>
-        <i>{element}</i>
+        <i id='hamburger'>{element}</i>
 
         <li><a href='#'>LINKS</a></li>
         <i>{other_icon}</i>

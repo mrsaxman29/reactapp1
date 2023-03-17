@@ -64,8 +64,29 @@ code {
   border-style: solid;
   margin: 5px;
   
-  
+}
 
+.top_color{
+  height: 500px;
+  background-image: linear-gradient(rgb(38, 38, 167), #001220 );
+}
+
+.bottom_color{
+  height: 500px;
+  background-image: linear-gradient(#CCCCCC, #001220 );
+}
+
+img{
   
-  
+  vertical-align: middle;
+  width: 100%;
+}
+
+#root{
+  margin: 0;
+  padding: 0;
+}
+
+#drawer{
+  height: 300px;
 }
