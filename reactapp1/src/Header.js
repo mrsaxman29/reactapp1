@@ -8,7 +8,10 @@ const other_icon = <FontAwesomeIcon icon={faElevator} />
 
 const hamburger = document.getElementById("hamburger");
 const sidebar = document.getElementById("below_nav");
+
+// need to comment next line out to load app????//
 hamburger.addEventListener("click", show_sidebar);
+//// !!!!!!!!!!!!!!!!!!
 
 function show_sidebar(){
   //sidebar.style.left="0";
@@ -33,16 +36,7 @@ function hide_bar(){
 
 export default function Header() {
 
-  const hamburger = document.getElementById("hamburger");
-  hamburger.addEventListener("click", side_bar)
-  function side_bar(){
-
-    const drawer = document.createComment("div");
-    drawer.setAtrribute("id", "drawer");
-    
-    
-
-  };
+  
   
 
   return (

@@ -83,10 +83,7 @@ img{
   padding: 0;
 }
 
-#drawer{
-  height: 300px;
-   
-}
+
 
 #side_bar{
   display: block;
@@ -98,7 +95,7 @@ img{
 #below_nav{
   height: 300px;
   width: 200px;
-  background-color: red;
+  background-color: black;
   position: absolute;
   z-index: 99;
   left: -200px;
