@@ -1,12 +1,34 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fa9, faBars, faEnvelope, faHamburger, faMarsAndVenus, faElevator } from '@fortawesome/free-solid-svg-icons'
+import { faBars,  faElevator } from '@fortawesome/free-solid-svg-icons'
 
 const element = <FontAwesomeIcon icon={faBars} />
 const other_icon = <FontAwesomeIcon icon={faElevator} />
 
-//ReactDOM.render(element, document.body)
+const hamburger = document.getElementById("hamburger");
+const sidebar = document.getElementById("below_nav");
+hamburger.addEventListener("click", show_sidebar);
+
+function show_sidebar(){
+  //sidebar.style.left="0";
+  sidebar.classList.add("transi");
+  console.log("funct hit");
+  hamburger.removeEventListener("click", show_sidebar);
+  hamburger.addEventListener("click", hide_bar);
+
+};
+
+function hide_bar(){
+  //sidebar.style.left="-200px";
+  sidebar.classList.remove("transi");
+  console.log("HIDE HIT");
+  hamburger.removeEventListener("click", hide_bar);
+  hamburger.addEventListener("click", show_sidebar);
+
+}
+
+
 
 
 export default function Header() {
@@ -29,10 +51,13 @@ export default function Header() {
     <ul className='nav'>
         <i id='hamburger'>{element}</i>
 
-        <li><a href='#'>LINKS</a></li>
+        <li>LINKsssS</li>
         <i>{other_icon}</i>
         <li>Link2</li>
     </ul>
+    <div id="below_nav">
+
+    </div >
 
     </>
   )
