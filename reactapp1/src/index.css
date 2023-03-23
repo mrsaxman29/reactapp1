@@ -65,6 +65,7 @@ code {
 .top_color{
   height: 500px;
   background-image: linear-gradient(rgb(38, 38, 167), #001220 );
+  
 }
 
 .bottom_color{
@@ -104,4 +105,13 @@ img{
 .transi{
   transition: 2s;
   margin-left: 200px;
+}
+
+#headline{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  font-size: 90px;
+  padding-left: 200px;
+  padding-top: 100px;
+
 }
