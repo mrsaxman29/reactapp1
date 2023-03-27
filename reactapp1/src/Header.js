@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars,  faElevator } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
-const element = <FontAwesomeIcon icon={faBars} />;
+const element = <FontAwesomeIcon id="hamburger" icon={faBars} />;
 const other_icon = <FontAwesomeIcon icon={faElevator} />;
 
 export default function Header() {
@@ -35,11 +36,11 @@ export default function Header() {
   return (
     <>
       <ul className='nav'>
-        <i id='hamburger'>{element}</i>
+        <i className='links'>{element}</i>
 
-        <li>LINKsssS</li>
-        <i>{other_icon}</i>
-        <li>Link2</li>
+        <li><Link className='links' to="/Projects">PROJECTS</Link></li>
+        <i><Link className='links' to="/">{other_icon}</Link></i>
+        <li className='links'>Link2</li>
       </ul>
       <div id='below_nav'></div>
     </>

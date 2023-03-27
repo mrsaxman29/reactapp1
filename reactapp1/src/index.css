@@ -115,3 +115,32 @@ img{
   padding-top: 100px;
 
 }
+
+.links{
+  color: black;
+  text-decoration: none;
+}
+
+#hamburger:hover{
+  cursor: pointer;
+
+}
+
+.tile_wrapper{
+  display: flex;
+  padding: 20px;
+}
+
+.summary{
+  height: 400px;
+  min-width: 35vw;
+  background-color: green;
+}
+.tags_wrapper{
+  height: 100px;
+  background-color: purple;
+}
+
+.pic{
+  width: 40vw;
+}
