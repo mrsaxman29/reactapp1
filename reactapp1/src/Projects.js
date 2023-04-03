@@ -7,9 +7,6 @@ export default function Projects() {
 
         <Project_Tile/>
         <Project_Tile/>
-        <Project_Tile/>
-
-
         
     </div>
   )

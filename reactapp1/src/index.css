@@ -1,3 +1,7 @@
+*, html{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -128,19 +132,52 @@ img{
 
 .tile_wrapper{
   display: flex;
-  padding: 20px;
+
+  margin: 50px;
+  align-items: center;
+  max-height: 40vh;
+  border: solid;
+  background-color: rgb(44, 44, 44);
+  overflow: hidden;
+}
+
+.text_wrapper{
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .summary{
-  height: 400px;
   min-width: 35vw;
   background-color: green;
+  margin: 5px;
 }
+
 .tags_wrapper{
-  height: 100px;
   background-color: purple;
+  margin: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .pic{
   width: 40vw;
+}
+
+.video{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.video_wrapper{
+  margin: 5px;
+  min-width: 30vw;
+  margin-left: 5px;
+}
+
+.tag{
+  border: solid;
+  margin: 5px;
+  padding: 2px;
 }
