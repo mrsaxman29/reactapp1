@@ -159,10 +159,11 @@ code {
 
 .tile_wrapper{
   display: flex;
-
-  margin: 50px;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
   align-items: center;
-  max-height: 40vh;
+  min-height: 40vh;
   border: solid;
   background-color: rgb(44, 44, 44);
   overflow: hidden;
@@ -171,6 +172,7 @@ code {
 .text_wrapper{
   display: flex;
   flex-direction: column;
+  margin: 10px;
   
 }
 
@@ -178,6 +180,8 @@ code {
   min-width: 35vw;
   background-color: green;
   margin: 5px;
+  padding: 5px;
+  min-height: 30vh;
 }
 
 .tags_wrapper{
@@ -185,6 +189,7 @@ code {
   margin: 5px;
   display: flex;
   align-items: center;
+  padding: 5px;
 }
 
 .pic{
@@ -200,11 +205,23 @@ code {
 .video_wrapper{
   margin: 5px;
   min-width: 30vw;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 .tag{
   border: solid;
   margin: 5px;
   padding: 2px;
+}
+
+.title{
+  color: antiquewhite;
+  margin: 5px;
+  font-size:x-large;
+  text-align: center;
+}
+
+.linkbuttons{
+  width: 100px;
+  height: 50px;
 }

@@ -14,9 +14,9 @@ export default function Projects() {
   return (
     <div>
         
-        <Project_Tile video={spellVideo}/>
-        <Project_Tile video={hlcVideo}/>
-        <Project_Tile video={pierVideo}/>
+        <Project_Tile title="SPELLITAIRE" video={spellVideo}/>
+        <Project_Tile title="HITHER LANE" video={hlcVideo}/>
+        <Project_Tile title="PIERPG" video={pierVideo}/>
         
         
     </div>
