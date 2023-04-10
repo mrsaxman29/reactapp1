@@ -3,6 +3,7 @@ import Project_Tile from './Project_Tile'
 import v from './media/Pierpg.mp4'
 import v2 from './media/Spellitaire.mp4'
 import v3 from './media/HLC.mp4'
+import v4 from './media/PennyMovie.mp4'
 
 
 export default function Projects() {
@@ -15,11 +16,13 @@ export default function Projects() {
   const pierpg_tags = ["CSS", "JS", "GAMES"];
   const hl_tags = ["PYTHON","LIQUID", "JS", "CSS", "HTML"];
   const resume_tags = ["REACT", "JS", "CSS", "HTML"];
+  const penny_tags = ["PYTHON", 'PYGAME']
 
 
   const pierVideo = v;
   const spellVideo = v2;
   const hlcVideo = v3;
+  const pennyVideo = v4;
 
   return (
     <div>
@@ -28,7 +31,7 @@ export default function Projects() {
         <Project_Tile tags={hl_tags} deployed_url="https://www.shophitherlane.com/" code_url="https://github.com/mrsaxman29/Hither-Lane-Repo" summary={hlSummary} title="HITHER LANE" video={hlcVideo}/>
         <Project_Tile tags={pierpg_tags} deployed_url="https://mrsaxman29.github.io/pierpg/" code_url="https://github.com/mrsaxman29/pierpg" summary={ppgSummary} title="PIERPG" video={pierVideo}/>
         <Project_Tile tags={resume_tags} deployed_url="https://mrsaxman29.github.io/pierpg/" code_url="https://github.com/mrsaxman29/reactapp1" summary={ppgSummary} title="RESUME" video={pierVideo}/>
-        <Project_Tile tags={pierpg_tags} deployed_url="https://mrsaxman29.github.io/pierpg/" code_url="https://github.com/mrsaxman29/pierpg" summary={ppgSummary} title="PIERPG" video={pierVideo}/>
+        <Project_Tile tags={penny_tags}  code_url="https://github.com/mrsaxman29/PennyPG" summary={ppgSummary} title="PENNYPG" video={pennyVideo}/>
         
         
     </div>

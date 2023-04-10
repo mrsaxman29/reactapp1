@@ -35,7 +35,6 @@ export default function Project_Tile(props) {
 
                     <div className='tag'>{tag}</div>
                 ))}
-                
             
             </div>
         </div>
