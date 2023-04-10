@@ -6,16 +6,14 @@ import Video from './Video';
 
 export default function Project_Tile(props) {
 
-    const spellitaire_tags = ["JS", "CSS", "HTML"];
-    const pierpg_tags = ["CSS", "JS", "GAMES"];
-
-
     const video = props.video;
     const summary = props.summary;
     const tags = props.tags;
     const code_url = props.code_url;
     const deployed_url = props.deployed_url;
     const title = props.title;
+
+    console.log(tags);
 
 
   return (
@@ -24,7 +22,7 @@ export default function Project_Tile(props) {
             <video className='video' muted autoPlay loop src={video} />
             <div className='button_wrapper'>
                 <a href={code_url} target="_blank" className='linkbuttons'>CODE &#9999;</a>
-                <a href={deployed_url} target="_blank" className='linkbuttons'>PROJECT</a>
+                <a href={deployed_url} target="_blank" className='linkbuttons'>PROJECT &#9835;</a>
             </div>
             
             
@@ -33,7 +31,7 @@ export default function Project_Tile(props) {
             <div className="title">{title}</div>
             <div className='summary'><p>{summary}</p></div>
             <div  className='tags_wrapper'>TOPIC TAGS: 
-                {spellitaire_tags.map((tag)=>(
+                {tags && tags.map((tag)=>(
 
                     <div className='tag'>{tag}</div>
                 ))}
