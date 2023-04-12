@@ -4,12 +4,9 @@ import { faBars,  faElevator } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 const element = <FontAwesomeIcon id="hamburger" icon={faBars} />;
-const other_icon = <FontAwesomeIcon icon={faElevator} />;
+const other_icon = <FontAwesomeIcon id="o_icon"  icon={faElevator} />;
 
 export default function Header() {
-
-  const [d, setD] = useState({});
-
 
   useEffect(() => {
     const hamburger = document.getElementById('hamburger');
@@ -107,8 +104,8 @@ export default function Header() {
       <ul className='nav'>
         <i className='links'>{element}</i>
         <li><Link className='links' to="/Projects">PROJECTS</Link></li>
-        <i><Link className='links' to="/">{other_icon}</Link></i>
-        <li id='color_change' className='links'>CHANGE THEME</li>
+        <li><Link className='links' to="/">HOME</Link></li>
+        <li id='color_change' className='links'>{other_icon} COLOR</li>
       </ul>
       <div id='below_nav'></div>
     </>

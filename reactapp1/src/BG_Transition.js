@@ -13,13 +13,11 @@ export default function BG_Transition() {
       </div>
 
       <div id='git_wrapper'>
-        <h2>My Live GitHub Contributions</h2>
+        <h2>My GitHub Contributions <br/>LIVE FEED</h2>
         <img id='git' src="http://ghchart.rshah.org/mrsaxman29" alt="2016rshah's Github chart" />
 
       </div>
       
-      
-      <img id="svg" src='../bg2.svg'></img>
       <SVG1></SVG1>
       
       

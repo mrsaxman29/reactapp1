@@ -76,29 +76,15 @@ body {
 
 .top_color{
   height: 75vh;
-  background-image: linear-gradient(rgb(41, 41, 67), #001220 );
-  position: relative;
+  background-image: linear-gradient(var(--dark_accent), var(--dark_shades) );
   
 }
 
-.top_color::before{
-  content: "";
-  position: absolute;
-  background-image: url("./media/me1.png");
-  background-position: center;
-  background-size:cover;
-  background-repeat: no-repeat;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.33;
-}
 
 .bottom_color{
   
-  height: 500px;
-  background-image: linear-gradient(#CCCCCC, #001220 );
+  height: 50vh;
+  background-image: linear-gradient(var(--dark_accent), var(--dark_shades) );
   
 }
 
@@ -134,16 +120,10 @@ body {
   transition: all .5s;
 }
 
-#visual:hover{
-  padding: 20px;
-  transition: all .5s ease;
-  
-
-}
 
 #visual:hover path{
   transition: all .5s ease;
-  d: path("M0 185L129 15L129 19L257 196L257 195L386 195L386 210L514 210L514 197L643 197L643 157L771 157L771 181L900 181L900 161L900 251L900 251L771 251L771 251L643 251L643 251L514 251L514 251L386 251L386 251L257 251L257 251L129 251L129 251L0 251Z")
+  d: path("M0 185L129 19L129 19L257 196L257 195L386 195L386 210L514 210L514 227L643 227L643 157L771 157L771 181L800 181L800 161L900 251L900 251L771 251L771 251L643 251L643 251L514 251L514 251L386 251L386 251L257 251L257 251L129 251L129 251L0 251Z")
 }
 
 
@@ -178,9 +158,10 @@ body {
 #headline{
   
   color: var(--light_shades);
-  font-size: 90px;
+  font-size: 5rem;
   max-width: 60vw;
-  position: absolute;
+  padding-left: 2vw;
+  overflow: hidden;
 
 }
 
@@ -230,7 +211,7 @@ body {
 }
 
 .tags_wrapper{
-  background-color: var(--dark_accent);
+  background-color: var(--dark_shades);
   margin: 5px;
   display: flex;
   align-items: center;
@@ -295,4 +276,42 @@ body {
   opacity: .9;
   color:var(--dark_shades);
   border-radius: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: var(--dark_shades);
+}
+
+#color_change{
+  transition: all 0.2s ease-in-out;
+}
+
+#color_change:hover {
+  color: var(--main_color);
+  
+
+}
+
+#o_icon{
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+ul > *{
+  transition: all 0.2s ease-in-out;
+
+}
+
+ul > *:hover{
+  color: var(--main_color);
+
+}
+
+.links{
+  transition: all 0.2s ease-in-out;
+}
+
+.links:hover{
+  color: var(--main_color);
+
 }
