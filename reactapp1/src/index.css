@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Play'); 
 
+:root{
+  --light_shades: #F3ECE7;
+  --light_accents: #A77D46;
+  --main_color: #9592A0;
+  --dark_accent: #805E59;
+  --dark_shades: #383C4A;
+
+
+}
+
 
 *, html{
   box-sizing: border-box;
 }
 
 body {
+  background-color: var(--light_shades);
   margin: 0;
   padding: 0;
   font-family: Play;
@@ -13,16 +24,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 
 .nav{
 
-  background-color: teal;
-  color: white;
+  background-color: var(--light_accents);
   display: flex;
   list-style-type: none;
   min-height: 5rem;
@@ -34,7 +40,7 @@ code {
 }
 
 .body-wrapper{
-  background-color: green;
+  background-color: var(--dark_shades);
   min-height: 800px;
   display: flex;
   flex-wrap: wrap;
@@ -43,7 +49,7 @@ code {
 
 .left, .right, .center{
   border-style: solid;
-  background-color: pink;
+  background-color: var(--dark_accent);
   min-width: 15rem;
     
 }
@@ -56,7 +62,7 @@ code {
 .footer{
   display: flex;
   list-style-type: none;
-  background-color: teal;
+  background-color: var(--light_accents);
   min-height: 10rem;
   align-items: center;
   
@@ -98,10 +104,10 @@ code {
 
 #git_wrapper{
   display: flex;
-  background-color: #001220;
+  background-color: var(--light_accents);
   padding: 10px;
   font-family: Play;
-  color: azure;
+  color: var(--dark_accent);
 
 
 }
@@ -151,14 +157,14 @@ code {
 #side_bar{
   display: block;
   height: 200px;
-  background-color: purple;
+  background-color: var(--dark_shades);
   
 }
 
 #below_nav{
   height: 300px;
   width: 200px;
-  background-color: black;
+  background-color: var(--dark_shades);
   position: absolute;
   z-index: 99;
   left: -200px;
@@ -171,7 +177,7 @@ code {
 
 #headline{
   
-  color: aliceblue;
+  color: var(--light_shades);
   font-size: 90px;
   max-width: 60vw;
   position: absolute;
@@ -179,8 +185,12 @@ code {
 }
 
 .links{
-  color: black;
+  color: var(--dark_shades);
   text-decoration: none;
+}
+
+.links:hover{
+  cursor: pointer;
 }
 
 #hamburger:hover{
@@ -196,10 +206,10 @@ code {
   align-items: center;
   min-height: 50vh;
   border: solid;
-  background-color: rgb(0, 0, 0);
+  background-color: var(--dark_shades);
   overflow: hidden;
   border-radius: 20px;
-  color: azure;
+  color: var(--light_shades);
 }
 
 .text_wrapper{
@@ -211,20 +221,22 @@ code {
 
 .summary{
   min-width: 35vw;
-  background-color: rgb(53, 72, 53);
+  background-color: var(--dark_shades);
   margin: 5px;
   padding: 5px;
   min-height: 30vh;
   border-radius: 10px;
+  color: var(--light_shades);
 }
 
 .tags_wrapper{
-  background-color: purple;
+  background-color: var(--dark_accent);
   margin: 5px;
   display: flex;
   align-items: center;
   padding: 5px;
   border-radius: 10px;
+  color: var(--light_shades);
 }
 
 .pic{
@@ -249,10 +261,11 @@ code {
   border: solid;
   margin: 5px;
   padding: 2px;
+  color: var(--light_shades);
 }
 
 .title{
-  color: antiquewhite;
+  color: var(--light_shades);
   margin: 5px;
   font-size:x-large;
   text-align: center;
@@ -265,7 +278,7 @@ code {
 }
 
 .linkbuttons{
-  color: azure;
+  color: var(--light_shades);
   margin-top: 10px;
   transition: all 1s ease;
   padding: 0px;
@@ -278,8 +291,8 @@ code {
   transition: all 1s ease;
   padding: 15px;
   cursor: pointer;
-  background-color: aliceblue;
+  background-color: var(--light_shades);
   opacity: .9;
-  color: darkmagenta;
+  color:var(--dark_shades);
   border-radius: 30px;
 }
