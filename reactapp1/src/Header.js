@@ -103,8 +103,10 @@ export default function Header() {
     <>
       <ul className='nav'>
         <i className='links'>{element}</i>
-        <li><Link className='links' to="/Projects">PROJECTS</Link></li>
         <li><Link className='links' to="/">HOME</Link></li>
+        <li><Link className='links' to="/Projects">PROJECTS</Link></li>
+        <li><Link className='links' to="/Bio">BIO</Link></li>
+        
         <li id='color_change' className='links'>{other_icon} COLOR</li>
       </ul>
       <div id='below_nav'></div>
