@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Play'); 
+
+
 *, html{
   box-sizing: border-box;
 }
@@ -5,9 +8,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Play;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -68,15 +69,45 @@ code {
 }
 
 .top_color{
-  height: 500px;
-  background-image: linear-gradient(rgb(38, 38, 167), #001220 );
+  height: 75vh;
+  background-image: linear-gradient(rgb(41, 41, 67), #001220 );
+  position: relative;
   
+}
+
+.top_color::before{
+  content: "";
+  position: absolute;
+  background-image: url("./media/me1.png");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.33;
 }
 
 .bottom_color{
   
   height: 500px;
   background-image: linear-gradient(#CCCCCC, #001220 );
+  
+}
+
+#git_wrapper{
+  display: flex;
+  background-color: #001220;
+  padding: 10px;
+  font-family: Play;
+  color: azure;
+
+
+}
+
+#git{
+  width: 80%;
 }
 
 
@@ -139,11 +170,11 @@ code {
 }
 
 #headline{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
   color: aliceblue;
   font-size: 90px;
-  padding-left: 200px;
-  padding-top: 100px;
+  max-width: 60vw;
+  position: absolute;
 
 }
 
