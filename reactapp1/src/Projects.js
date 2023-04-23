@@ -27,8 +27,9 @@ export default function Projects() {
   return (
     <div>
         
-        <Project_Tile tags={spellitaire_tags} deployed_url="https://mrsaxman29.github.io/spellitaire/" code_url="https://github.com/mrsaxman29/spellitaire" summary={spellSummary} title="SPELLITAIRE" video={spellVideo}/>
+        
         <Project_Tile tags={hl_tags} deployed_url="https://www.shophitherlane.com/" code_url="https://github.com/mrsaxman29/Hither-Lane-Repo" summary={hlSummary} title="HITHER LANE" video={hlcVideo}/>
+        <Project_Tile tags={spellitaire_tags} deployed_url="https://mrsaxman29.github.io/spellitaire/" code_url="https://github.com/mrsaxman29/spellitaire" summary={spellSummary} title="SPELLITAIRE" video={spellVideo}/>
         <Project_Tile tags={pierpg_tags} deployed_url="https://mrsaxman29.github.io/pierpg/" code_url="https://github.com/mrsaxman29/pierpg" summary={ppgSummary} title="PIERPG" video={pierVideo}/>
         <Project_Tile tags={resume_tags} deployed_url="https://mrsaxman29.github.io/pierpg/" code_url="https://github.com/mrsaxman29/reactapp1" summary={ppgSummary} title="RESUME" video={pierVideo}/>
         <Project_Tile tags={penny_tags}  code_url="https://github.com/mrsaxman29/PennyPG" summary={ppgSummary} title="PENNYPG" video={pennyVideo}/>
