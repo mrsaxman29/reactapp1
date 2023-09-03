@@ -45,7 +45,7 @@ export default function Header() {
       console.log("FINISHED COLORSSS");
     };
 
-    const colors_list = ['rgb(164, 36, 36','rgb(251, 249, 230','rgb(168, 155, 128','rgb(103, 86, 82','rgb(21, 36, 45'];
+    var colors_list = ['rgb(164, 36, 36','rgb(251, 249, 230','rgb(168, 155, 128','rgb(103, 86, 82','rgb(21, 36, 45'];
     
     const get_data = function(){
     
@@ -107,7 +107,7 @@ export default function Header() {
         <li><Link className='links' to="/Projects">PROJECTS</Link></li>
         <li><Link className='links' to="/Bio">BIO</Link></li>
         
-        <li id='color_change' className='links'>{other_icon}CHANGE COLOR</li>
+        <li id='color_change' className='links'>{other_icon} CHANGE COLOR</li>
       </ul>
       <div id='below_nav'></div>
     </>
