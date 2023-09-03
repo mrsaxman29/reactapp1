@@ -31,7 +31,7 @@ export default function Header() {
     const r = document.querySelector(':root');
 
     function add_colors(color_l){
-      console.log("ADD COLORS CALLED");
+      console.log("ADD COLORS CALLEDD");
       r.style.setProperty('--light_shades', color_l[0]);
       console.log(color_l[0]);
       r.style.setProperty('--light_accents', color_l[1]);
