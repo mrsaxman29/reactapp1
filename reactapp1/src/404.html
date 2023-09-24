@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your React App</title>
+</head>
+<body>
+    <noscript>
+        This application requires JavaScript to function properly.
+    </noscript>
+    <div id="root"></div>
+    <script>
+        // This script will redirect any unmatched routes to your index.html
+        const url = new URL(window.location.href);
+        const path = url.pathname;
+
+        if (!path.startsWith("/static/")) {
+            window.location.replace("/index.html" + (path === "/" ? "" : path));
+        }
+    </script>
+</body>
+</html>

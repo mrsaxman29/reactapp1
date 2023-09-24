@@ -4,7 +4,7 @@ import Footer from './Footer';
 import BG_Transition from './BG_Transition';
 import Projects from './Projects';
 import Bio from './Bio';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
     <Header></Header>
 
     <Routes>
-      <Route exact path="/" element={<><BG_Transition/><Body/></>}/>
+      <Route exact path="/" element={<><BG_Transition/></>}/>
       <Route exact path="/projects" element={<Projects/>}/>
       <Route exact path="/bio" element={<Bio/>}/>
       
