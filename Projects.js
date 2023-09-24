@@ -5,6 +5,7 @@ import v2 from './media/Spellitaire.mp4'
 import v3 from './media/HLC.mp4'
 import v4 from './media/PennyMovie.mp4'
 import v5 from './media/bsappdemo.mp4'
+import v6 from './media/resumevid.mov'
 
 
 
@@ -28,6 +29,7 @@ export default function Projects() {
   const hlcVideo = v3;
   const pennyVideo = v4;
   const bsVideo = v5;
+  const resumeVid = v6;
 
   return (
     <div>
@@ -37,7 +39,7 @@ export default function Projects() {
         <Project_Tile tags={bs_app_tags} deployed_url="https://bsapp-a588a.web.app/landing.html"  code_url="https://github.com/mrsaxman29/bsapp" summary={bsAPP_summary} title="BaseballNotation.com" video={bsVideo}/>
         <Project_Tile tags={spellitaire_tags} deployed_url="https://mrsaxman29.github.io/spellitaire/" code_url="https://github.com/mrsaxman29/spellitaire" summary={spellSummary} title="SPELLITAIRE" video={spellVideo}/>
         <Project_Tile tags={pierpg_tags} deployed_url="https://mrsaxman29.github.io/pierpg/" code_url="https://github.com/mrsaxman29/pierpg" summary={ppgSummary} title="PIERPG" video={pierVideo}/>
-        <Project_Tile tags={resume_tags} deployed_url="https://mrsaxman29.github.io/pierpg/" code_url="https://github.com/mrsaxman29/reactapp1" summary={ppgSummary} title="RESUME" video={pierVideo}/>
+        <Project_Tile tags={resume_tags} deployed_url="https://mrsaxman29.github.io/reactapp1/" code_url="https://github.com/mrsaxman29/reactapp1" summary={ppgSummary} title="RESUME" video={resumeVid}/>
         <Project_Tile tags={penny_tags}  code_url="https://github.com/mrsaxman29/PennyPG" summary={ppgSummary} title="PENNYPG" video={pennyVideo}/>
         
         

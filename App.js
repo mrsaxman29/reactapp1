@@ -18,7 +18,7 @@ function App() {
     <Header></Header>
 
     <Routes>
-      <Route exact path="/" element={<><BG_Transition/><Body/></>}/>
+      <Route exact path="/" element={<><BG_Transition/></>}/>
       <Route exact path="/projects" element={<Projects/>}/>
       <Route exact path="/bio" element={<Bio/>}/>
       

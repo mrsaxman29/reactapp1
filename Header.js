@@ -120,12 +120,12 @@ export default function Header() {
   return (
     <>
       <ul className='nav'>
-        <i className='links'>{element}</i>
-        <li><Link className='links' to="/">HOME</Link></li>
-        <li><Link className='links' to="/Projects">PROJECTS</Link></li>
-        <li><Link className='links' to="/Bio">BIO</Link></li>
+        <i className='links'><span class="text-with-shadow">{element}</span></i>
+        <li><Link className='links' to="/"><span class="text-with-shadow">HOME</span></Link></li>
+        <li><Link className='links' to="/Projects"><span class="text-with-shadow">PROJECTS</span></Link></li>
+        <li><Link className='links' to="/Bio"><span class="text-with-shadow">BIO</span></Link></li>
         
-        <li id='color_change' className='links'>{other_icon} CHANGE COLOR</li>
+        <li id='color_change' className='links'>{other_icon} <span class="text-with-shadow">CHANGE COLOR</span></li>
       </ul>
       <div id='below_nav'></div>
     </>
