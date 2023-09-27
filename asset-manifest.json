@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactapp1/static/css/main.81664aa4.css",
-    "main.js": "/reactapp1/static/js/main.454b307c.js",
+    "main.css": "/reactapp1/static/css/main.c45586b9.css",
+    "main.js": "/reactapp1/static/js/main.2b6ac31d.js",
     "static/js/787.998e4b75.chunk.js": "/reactapp1/static/js/787.998e4b75.chunk.js",
     "static/media/resumevid.mov": "/reactapp1/static/media/resumevid.67825e4635931c665e17.mov",
     "static/media/bsappdemo.mp4": "/reactapp1/static/media/bsappdemo.7c2891af3f98ff1e07c1.mp4",
@@ -13,12 +13,12 @@
     "static/media/me5.PNG": "/reactapp1/static/media/me5.3943c0a9f780fab9a27a.PNG",
     "static/media/me6.PNG": "/reactapp1/static/media/me6.95d1fc3444d20346f1c4.PNG",
     "index.html": "/reactapp1/index.html",
-    "main.81664aa4.css.map": "/reactapp1/static/css/main.81664aa4.css.map",
-    "main.454b307c.js.map": "/reactapp1/static/js/main.454b307c.js.map",
+    "main.c45586b9.css.map": "/reactapp1/static/css/main.c45586b9.css.map",
+    "main.2b6ac31d.js.map": "/reactapp1/static/js/main.2b6ac31d.js.map",
     "787.998e4b75.chunk.js.map": "/reactapp1/static/js/787.998e4b75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81664aa4.css",
-    "static/js/main.454b307c.js"
+    "static/css/main.c45586b9.css",
+    "static/js/main.2b6ac31d.js"
   ]
 }
