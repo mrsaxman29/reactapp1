@@ -38,6 +38,7 @@ body {
 
 .nav > * {
   flex: 1;
+  
 }
 
 .body-wrapper{
@@ -61,10 +62,11 @@ body {
 .left{flex-grow: auto;}
 
 .footer{
+  margin-top: 50px;
   display: flex;
   list-style-type: none;
   background-color: var(--light_accents);
-  min-height: 10rem;
+  min-height: 6rem;
   align-items: center;
   
   }
@@ -72,6 +74,8 @@ body {
 .footer > *{
   border-style: solid;
   margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 10px;
   
 }
 
@@ -178,12 +182,15 @@ body {
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
   padding: 5px;
   border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  
 
 }
 
 .links{
   color: var(--dark_shades);
   text-decoration: none;
+  
   
 }
 
@@ -200,8 +207,8 @@ body {
   display: flex;
   
   margin-top: 40px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
   align-items: center;
   min-height: 50vh;
   border: solid;
@@ -210,6 +217,9 @@ body {
   border-radius: 20px;
   color: var(--light_shades);
   padding: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+
 }
 
 .text_wrapper{
@@ -351,10 +361,11 @@ ul > *:hover{
   align-items: center;
   background-color: white;
   padding: 5rem;
+  flex-direction: column;
 }
 
 #bio_txt{
-  padding: 5rem;
+  padding: 1rem;
 }
 
 @media (max-width: 920px) {
