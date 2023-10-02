@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars,  faElevator } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import pennypic from './media/pennyimg2.png'
 
 const element = <FontAwesomeIcon id="hamburger" icon={faBars} />;
 const other_icon = <FontAwesomeIcon id="o_icon"  icon={faElevator} />;
@@ -125,9 +126,11 @@ export default function Header() {
         <li><Link className='links' to="/Projects"><span class="text-with-shadow">PROJECTS</span></Link></li>
         <li><Link className='links' to="/Bio"><span class="text-with-shadow">BIO</span></Link></li>
         
-        <li id='color_change' className='links'>{other_icon} <span class="text-with-shadow">CHANGE COLOR</span></li>
+        <li id='color_change' className='links'><span class="text-with-shadow">COLOR SWAP</span></li>
       </ul>
-      <div id='below_nav'></div>
+      <img src={pennypic} style={{backgroundColor: "rgba(255,255,255,0)"}} id='below_nav'>
+        
+      </img>
     </>
   );
 }
