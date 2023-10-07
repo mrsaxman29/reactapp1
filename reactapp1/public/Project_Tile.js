@@ -19,7 +19,7 @@ export default function Project_Tile(props) {
   return (
     <div className='tile_wrapper'>
         <div className='video_wrapper'>
-            <video className='video' muted autoPlay loop src={video} />
+            <video  className='video' muted autoPlay playsInline loop src={video} />
             <div className='button_wrapper'>
                 <a href={code_url} target="_blank" className='linkbuttons'>CODE &#9999;</a>
                 <a href={deployed_url} target="_blank" className='linkbuttons'>PROJECT &#9835;</a>

@@ -22,7 +22,7 @@ export default function BG_Transition() {
         <div id='heroTileWrapper'>
           <img id='coderOneSVG' src={coder1}></img>
           <div id='heroTXT'>{hero_txt}</div>
-          <img id='heroImage' src={BPIC}></img>
+          {/* <img id='heroImage' src={BPIC}></img> */}
         </div>
       </div>
 

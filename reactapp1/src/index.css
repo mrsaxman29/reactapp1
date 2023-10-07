@@ -88,18 +88,21 @@ body {
 }
 
 .top_color{
-  height: 60vh;
-  background-image: linear-gradient(var(--dark_accent), var(--dark_shades) );
+  height: 50vh;
+  background-image: linear-gradient(155deg, var(--dark_accent), var(--light_accents) );
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 5px;
+  padding: 10px;
+  height: fit-content;
   
 }
 
 #heroTileWrapper{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  padding-left: 20px;
 }
 
 #heroImage{
@@ -112,9 +115,16 @@ body {
 }
 
 #coderOneSVG{
-  width: 380px;
-  height: 380px;
+  width: 420px;
+  height: 420px;
   z-index: 99;
+}
+
+@media only screen and (max-width:750px)  {
+  #coderOneSVG{
+    width: 220px;
+    height: 220px;
+  }
 }
 
 
@@ -147,6 +157,13 @@ body {
 
 #git{
   width: 95%;
+}
+
+@media only screen and (max-width: 750px) {
+  #git{
+    height: 90px;
+    width: 102%;
+  }
 }
 
 
@@ -197,8 +214,8 @@ body {
 }
 
 #below_nav{
-  height: 300px;
-  width: 200px;
+  height: 210px;
+  width: 150px;
   background-color: var(--dark_shades);
   position: absolute;
   z-index: 99;
@@ -217,7 +234,7 @@ body {
   max-width: 90vw;
   padding-left: 2vw;
   overflow: hidden;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -406,7 +423,13 @@ ul > *:hover{
   background-color: white;
   padding: 5rem;
   flex-direction: column;
+  background-color: var(--dark_shades);
+  color: var(--light_shades);
+  height: 75vh;
+
 }
+
+
 
 #bio_txt{
   padding: 1rem;
@@ -416,6 +439,15 @@ ul > *:hover{
 
     .tile_wrapper{
       display: block;
+    }
+
+    #bio_wrapper{
+      height: fit-content;
+
+    }
+
+    #bio_txt{
+      width: 80vw;
     }
 
   
