@@ -1,6 +1,6 @@
 import React from 'react';
 import SVG1 from './SVG1';
-import BPIC from './media/appPic2.png'
+import BPIC from './media/projectCards2.png'
 import coder1 from './media/coder4.png'
 
 export default function BG_Transition() {
@@ -22,7 +22,7 @@ export default function BG_Transition() {
         <div id='heroTileWrapper'>
           <img id='coderOneSVG' src={coder1}></img>
           <div id='heroTXT'>{hero_txt}</div>
-          {/* <img id='heroImage' src={BPIC}></img> */}
+          <img id='heroImage' src={BPIC}></img>
         </div>
       </div>
 
