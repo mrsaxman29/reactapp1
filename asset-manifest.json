@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactapp1/static/css/main.d45a7bd5.css",
-    "main.js": "/reactapp1/static/js/main.3ac85380.js",
+    "main.css": "/reactapp1/static/css/main.50c53cf3.css",
+    "main.js": "/reactapp1/static/js/main.19302afb.js",
     "static/js/787.998e4b75.chunk.js": "/reactapp1/static/js/787.998e4b75.chunk.js",
     "static/media/resumevid.mov": "/reactapp1/static/media/resumevid.67825e4635931c665e17.mov",
     "static/media/bsappdemo.mp4": "/reactapp1/static/media/bsappdemo.7c2891af3f98ff1e07c1.mp4",
@@ -14,14 +14,14 @@
     "static/media/me6.PNG": "/reactapp1/static/media/me6.95d1fc3444d20346f1c4.PNG",
     "static/media/pennyimg2.png": "/reactapp1/static/media/pennyimg2.6287ff3a76261acf19ff.png",
     "static/media/coder4.png": "/reactapp1/static/media/coder4.9be364b1d79c72ce63b3.png",
-    "static/media/appPic2.png": "/reactapp1/static/media/appPic2.3c4e44a15d62ac0c2cc2.png",
+    "static/media/projectCards2.png": "/reactapp1/static/media/projectCards2.527a69195b8c565a6418.png",
     "index.html": "/reactapp1/index.html",
-    "main.d45a7bd5.css.map": "/reactapp1/static/css/main.d45a7bd5.css.map",
-    "main.3ac85380.js.map": "/reactapp1/static/js/main.3ac85380.js.map",
+    "main.50c53cf3.css.map": "/reactapp1/static/css/main.50c53cf3.css.map",
+    "main.19302afb.js.map": "/reactapp1/static/js/main.19302afb.js.map",
     "787.998e4b75.chunk.js.map": "/reactapp1/static/js/787.998e4b75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d45a7bd5.css",
-    "static/js/main.3ac85380.js"
+    "static/css/main.50c53cf3.css",
+    "static/js/main.19302afb.js"
   ]
 }
