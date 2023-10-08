@@ -35,8 +35,6 @@ export default function BG_Transition() {
       <SVG1></SVG1>
       
       
-      
-      
     </>
   )
 }
